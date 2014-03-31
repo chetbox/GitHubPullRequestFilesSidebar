@@ -5,5 +5,5 @@ A Chrom[e|ium] extension that sticks GitHub's diffstat on the left of your scree
 ## Installation
 
 - Clone the code or download as zip an unpack.
-- In Chrom[e|ium]'s Extensions list check "Developer mode", select "Load unpack extension" and select the folder.
+- In Chrom[e|ium]'s Extensions list check "Developer mode", select `Load unpack extension` and select the folder.
 - Go to a pull requst.
