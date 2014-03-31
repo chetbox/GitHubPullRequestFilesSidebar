@@ -1,0 +1,14 @@
+{
+	"name" : "GitHub pull request diffstat sidebar",
+	"manifest_version" : 2,
+	"version" : "0.1",
+	"description" : "Fix the Diff Stat window to left in GitHub pull requests, allowing you to easily navigate files",
+	"icons" : { "256" : "daftpunktocat-thomas-256.png" },
+  	"content_scripts": [
+    	{
+			"matches": ["https://github.com/*/*/pull/*/files"],
+     		"css": ["styles.css"],
+     		"js": ["content.js"]
+    	}
+   ]
+}
