@@ -6,7 +6,7 @@
 	bottom: 0 !important;
 	width: 500px !important;
 	overflow-y: auto !important;
-	padding: 2em 1em !important;
+	padding: 2em 0 !important;
 	margin: 0 !important;
 	background-color: white !important;
 	z-index: 100 !important;
@@ -16,6 +16,12 @@
 /* a bit of padding to keep things neat */
 #toc > .explain {
 	margin-bottom: 1em !important;
+	margin-left: 1em !important;
+	margin-right: 1em !important;
+}
+#toc ol > li {
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 /* hide "[Show|Hide] Diff Stats" button */
@@ -31,4 +37,9 @@
 /* inline the repo label to prevent overlapping */
 .pagehead .repo-label {
 	position: static !important;
+}
+
+/* highlight files visible on screen in TOC */
+#toc ol > li.visible {
+		background-color: #fffecc !important;
 }
